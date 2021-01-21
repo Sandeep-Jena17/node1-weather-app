@@ -1,6 +1,6 @@
 const path =require("path");
 const express=require("express");
-const port =3001;
+const port = process.env.PORT || 3001;
 const app=express();
 const hbs=require("hbs");
 const geocode=require("./utils/geocode");
