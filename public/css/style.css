@@ -7,12 +7,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: #1c1c1bff;
 }
 .main__content {
   flex-grow: 1;
 }
 footer {
-  color: #888888;
+  color: #333333;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
@@ -27,9 +28,11 @@ h1 {
 }
 
 header a {
-  color: #888888;
+  color: #ffffff;
   margin-right: 16px;
   text-decoration: none;
+  font-size: large;
+  font-weight: 800;
 }
 
 .potrait {
@@ -47,7 +50,7 @@ button {
   width: 100px;
 }
 
-/* .help__video {
+.help__video {
   position: absolute;
   width: 100%;
   left: 50%;
@@ -56,4 +59,11 @@ button {
   object-fit: cover;
   z-index: -1;
   transform: translate(-50%, -50%);
-} */
+}
+#message1,
+#message2,
+#message3 {
+  font-weight: 900;
+  font-size: x-large;
+  color: #3c1053ff;
+}
