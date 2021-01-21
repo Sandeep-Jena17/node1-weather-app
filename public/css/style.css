@@ -67,3 +67,8 @@ button {
   font-size: x-large;
   color: #3c1053ff;
 }
+#about__paragraph {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eeeeee;
+}
