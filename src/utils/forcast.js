@@ -10,7 +10,8 @@ const forcast=(latitude,longitude,callback)=>{
     }else if(body.error){
             callback(`unable to find location`,undefined);
     }else{
-        callback(undefined,body.current.weather_descriptions[0] +" "+'it is currently' +body.current.temperature+" "+"degree out"+" "+body.current.precip +" "+"% chance of rain");
+        console.log(body);
+        callback(undefined,body.current.weather_descriptions[0] +" "+'it is currently' +body.current.temperature+" "+"degree out"+" "+body.current.precip +" "+"% chance of rain"+" "+"Humidity:"+body.current.humidity+" "+"Speed of wind"+" "+body.current.wind_speed+" ");
     };
  });
 };
